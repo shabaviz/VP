@@ -1,27 +1,8 @@
 # OpenConnect-VPN-Server
 **2022 NOV UPDATE**: We dockerized and added Dockerfile to run it anywhere you want on any linux distro easily.
 Buggy script for configuring OpenConnect (ocserv 1.1.6) protocol on the server easily and automatically.
-## Script Installation
+
 Tested on ubuntu 18.04 and 16.04 and 22.04.
-
-Download and saving script on your server:
-```bash
-curl -O https://raw.githubusercontent.com/iw4p/OpenConnect-Cisco-AnyConnect-VPN-Server-OneKey-ocserv/master/ocserv-install.sh
-```
-
-Making script executable
-```bash
-chmod +x ocserv-install.sh
-```
-
-And then just run it:
-```sh
-./ocserv-install.sh
-``` 
-or
-```sh
-sudo bash ocserv-install.sh
-``` 
 
 ## Docker Installation
 1. Install Docker
